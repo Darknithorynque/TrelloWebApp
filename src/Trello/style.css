@@ -1,0 +1,60 @@
+html, body {
+    background-color: #00079b;
+}
+
+.tableSection-body {
+    overflow: scroll;
+    height: 630px;
+}
+
+.table-section {
+
+    background-color: #e2e4e6 !important;
+    border: 1px solid transparent !important ;
+    border-radius: 0px !important;
+    width: 288px;
+    margin-top: 60px;
+    margin-left: 50px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.5) !important;
+}
+
+.tableTitle {
+   
+    text-align: center;
+
+}
+
+#root {
+    background-color: #00079b;
+}
+
+.profileCard-card {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.5) !important;
+    margin-bottom: 35px;
+
+}
+
+.profileCard-image {
+
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+
+}
+
+.profileCard-pic {
+
+    max-height: 158px;
+    min-height: 157.8px;
+
+}
+
+.trello-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.trello-content {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+}
+

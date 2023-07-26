@@ -49,7 +49,7 @@ html, body {
 }
 
 .trello-container {
-    display: flex;
+    display: block;
     overflow-x: auto;
 }
 

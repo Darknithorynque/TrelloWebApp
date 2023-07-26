@@ -163,7 +163,7 @@ export function Trello() {
       <MDBRow>
         <MDBCol
           style={{
-            display: "flex",
+            display: "grid",
             justifyContent: "center",
             alignItems: "center",
           }}
@@ -178,6 +178,9 @@ export function Trello() {
           >
             Your Favorite Country to Live
           </h3>
+          <p style={{ textAlign: "center" }}>
+            (Pls drag the items / Lütfen kartları sürükleyin)
+          </p>
         </MDBCol>
       </MDBRow>
       <MDBRow className="trello-content">

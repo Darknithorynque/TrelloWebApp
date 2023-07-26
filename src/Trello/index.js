@@ -161,8 +161,23 @@ export function Trello() {
   return (
     <div className="trello-container">
       <MDBRow>
-        <MDBCol>
-          <MDBIcon></MDBIcon>
+        <MDBCol
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <h3
+            style={{
+              marginBlockStart: "60px",
+              fontFamily: "cursive",
+              color: "#fff",
+              fontSize: "35px",
+            }}
+          >
+            Your Favorite Country to Live
+          </h3>
         </MDBCol>
       </MDBRow>
       <MDBRow className="trello-content">

@@ -1,7 +1,7 @@
 {
   "name": "mdb-react-template",
   "version": "6.0.0",
-  "homepage": "https://darknithorynque.github.io/trellowebapp",
+  "homepage": "https://darknithorynque.github.io/TrelloWebApp",
   "description": "template for mdb-react-ui-kit",
   "private": true,
   "dependencies": {

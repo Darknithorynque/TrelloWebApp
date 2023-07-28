@@ -96,19 +96,19 @@ export function Trello() {
       id: uuidv4(),
       countryName: "Turkey",
       cardPicUrl: "https://www.worldometers.info/img/flags/tu-flag.gif",
-      tableId: "evil",
+      tableId: "hard",
     },
     {
       id: uuidv4(),
       countryName: "Afghanistan",
       cardPicUrl: "https://www.worldometers.info/img/flags/af-flag.gif",
-      tableId: "evil",
+      tableId: "hard",
     },
     {
       id: uuidv4(),
       countryName: "Iran",
       cardPicUrl: "https://www.worldometers.info/img/flags/ir-flag.gif",
-      tableId: "evil",
+      tableId: "hard",
     },
   ]);
 
@@ -117,7 +117,7 @@ export function Trello() {
     best: { title: "Best", cards: [] },
     good: { title: "Good", cards: [] },
     intermediate: { title: "Intermediate", cards: [] },
-    evil: { title: "Evil", cards: [] },
+    hard: { title: "Hard", cards: [] },
   };
 
   cards.forEach((card) => {
